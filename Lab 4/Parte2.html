@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte2</title>
+</head>
+<body>
+    
+    <form action="" onsubmit="Console(event)">
+    
+    <fieldset> Login
+        <div>
+            <label for=>Email
+                <input type="email" placeholder="example@example.com" id="email">
+            </label>
+        </div>
+        <div>
+            <label for="">Password
+                <input type="password" id="password">
+            </label>
+        </div>
+        
+        <button type="submit">Submit</button>
+    </fieldset>
+
+<script>
+    function Console(event){
+        event.default();
+        var dat= document.getElementbyID("email");
+        console.log(email.value);
+    }
+</script>
+</form>
+</body>
+</html>
