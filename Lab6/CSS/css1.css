@@ -1,6 +1,6 @@
 .box{
     box-sizing: content-box;
-    height: 500px;
+    height: 400px;
     width: 600px;
     border-style:solid;
     border-color: black;
